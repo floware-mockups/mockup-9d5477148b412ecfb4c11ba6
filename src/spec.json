@@ -1,0 +1,204 @@
+{
+  "title": "Registro presenze e attività",
+  "description": "Prototipo navigabile per annotare entrate, uscite e attività svolte in un laboratorio didattico, con una dashboard di sintesi e registri filtrabili. Tutti i dati sono inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Panoramica delle presenze e delle attività del laboratorio.",
+      "metrics": [
+        {
+          "label": "Presenze oggi",
+          "value": "12"
+        },
+        {
+          "label": "Ingressi registrati",
+          "value": "14"
+        },
+        {
+          "label": "Uscite registrate",
+          "value": "9"
+        },
+        {
+          "label": "Attività svolte",
+          "value": "8"
+        }
+      ],
+      "columns": [
+        "Indicatore",
+        "Valore",
+        "Periodo"
+      ],
+      "rows": [
+        [
+          "Presenze",
+          "12",
+          "Oggi"
+        ],
+        [
+          "Ingressi",
+          "14",
+          "Oggi"
+        ],
+        [
+          "Uscite",
+          "9",
+          "Oggi"
+        ],
+        [
+          "Attività completate",
+          "8",
+          "Oggi"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "registro-presenze",
+      "title": "Registro presenze",
+      "description": "Tabella filtrabile per consultare e registrare ingressi e uscite del laboratorio.",
+      "metrics": [
+        {
+          "label": "Registrazioni",
+          "value": "5"
+        },
+        {
+          "label": "Presenti",
+          "value": "3"
+        },
+        {
+          "label": "Uscite completate",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Partecipante",
+        "Data",
+        "Entrata",
+        "Uscita",
+        "Attività",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "12/06/2025",
+          "09:00",
+          "12:00",
+          "Esperimenti con forme",
+          "Uscito"
+        ],
+        [
+          "Vela",
+          "12/06/2025",
+          "09:15",
+          "—",
+          "Costruzioni modulari",
+          "Presente"
+        ],
+        [
+          "Nubi",
+          "12/06/2025",
+          "09:30",
+          "—",
+          "Disegno luminoso",
+          "Presente"
+        ],
+        [
+          "Rivo",
+          "12/06/2025",
+          "10:00",
+          "11:45",
+          "Percorso dei materiali",
+          "Uscito"
+        ],
+        [
+          "Soli",
+          "12/06/2025",
+          "10:20",
+          "—",
+          "Modellazione creativa",
+          "Presente"
+        ]
+      ],
+      "form": [
+        "Partecipante",
+        "Data",
+        "Entrata",
+        "Uscita",
+        "Attività",
+        "Stato"
+      ]
+    },
+    {
+      "id": "attivita",
+      "title": "Attività svolte",
+      "description": "Registro filtrabile delle attività didattiche, con partecipanti e durata.",
+      "metrics": [
+        {
+          "label": "Attività registrate",
+          "value": "4"
+        },
+        {
+          "label": "Partecipanti coinvolti",
+          "value": "11"
+        },
+        {
+          "label": "Durata complessiva",
+          "value": "6 h"
+        }
+      ],
+      "columns": [
+        "Attività",
+        "Data",
+        "Partecipante",
+        "Durata",
+        "Materiali",
+        "Esito"
+      ],
+      "rows": [
+        [
+          "Esperimenti con forme",
+          "12/06/2025",
+          "Lumo",
+          "1 h",
+          "Blocchi e sagome",
+          "Completata"
+        ],
+        [
+          "Costruzioni modulari",
+          "12/06/2025",
+          "Vela",
+          "1 h 30 min",
+          "Elementi modulari",
+          "In corso"
+        ],
+        [
+          "Disegno luminoso",
+          "12/06/2025",
+          "Nubi",
+          "45 min",
+          "Pannello e forme",
+          "Completata"
+        ],
+        [
+          "Percorso dei materiali",
+          "12/06/2025",
+          "Rivo",
+          "1 h 15 min",
+          "Campioni inventati",
+          "Completata"
+        ]
+      ],
+      "form": [
+        "Attività",
+        "Data",
+        "Partecipante",
+        "Durata",
+        "Materiali",
+        "Esito"
+      ]
+    }
+  ]
+}
